@@ -29,11 +29,10 @@ app.post('/sendEmail', function(req, res, next){
 	});
 
 	var mailOptions = {
-		from: '"Project2" <uclaProject2@gmail.com>',
+		from: '"E-minder" <uclaProject2@gmail.com>',
 		to: 'montalvocode@yahoo.com',
-		subject: 'Email test for Project2',
-		text: 'You have an update about your desired Gift ' + theGift,
-		html: '<p>You have an update about your desired Gift</p>' + theGift
+		subject: "We've found it!",
+		html: '<h1>Follow the link for more information about this product.</h1>' + theGift
 	};
 
 

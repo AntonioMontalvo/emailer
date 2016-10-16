@@ -8,6 +8,7 @@
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.5",
     "nodemailer": "^2.6.4",
+    "nodemailer-direct-transport": "^3.3.2",
     "nodemailer-express-handlebars": "^2.0.0"
   },
   "devDependencies": {},
